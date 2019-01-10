@@ -2,7 +2,7 @@ import React from "react"
 
 const Content1 = () => {
     return (
-        <div>
+        <div className="topContent">
             <h2>Hello World !</h2>
             <p>Lorem ninja ipsum dolor sit amet, consectetuer adipiscing elit,
                 sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna

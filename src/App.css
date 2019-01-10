@@ -45,8 +45,57 @@ Nexus 7 (2013)	             1200 x 1920	600 x 960
 Samsung Galaxy Tab 10	      800 x 1280	800 x 1280
 Chromebook Pixel	         2560 x 1700	1280 x 850 */
 
-@media only screen and (max-width: 1px ) {
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.topContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.picContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.pic {
+  width: 320px;
+  height: 320px;
+}
+
+ul {
+  margin-block-end: 0em;
+  margin-block-start: 0em;
+  list-style-type: none;
+  padding-inline-start: 0px;
+}
+
+@media only screen and (max-width: 375px ) {
+  .tagline {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px ) {
+  .pic {
+    width: 700px;
+    height: 700px;
   }
 
-@media only screen and (min-width: 2px ) {
+  .listContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 25px;
+  }
 }
