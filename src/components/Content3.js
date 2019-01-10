@@ -3,7 +3,7 @@ import React from "react"
 const Content3 = () => {
     return (
         <div>
-            <ul>
+            <ul className="listContent">
                 <li>
                     <h3>Title Text</h3>
                     <p>Lorem ninja ipsum dolor sit amet, consectetuer adipiscing elit,
